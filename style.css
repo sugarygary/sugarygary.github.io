@@ -1,0 +1,209 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url(fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+.container {
+  display: flex;
+}
+.profile {
+  padding: 3vw;
+  box-sizing: border-box;
+  /* width: 100%; */
+  color: white;
+  background-color: #2a3444;
+}
+.lefthr {
+  height: 0.04rem;
+  border-radius: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1vw;
+  /* width: 100%; */
+  /* margin: auto; */
+  box-shadow: none;
+  font-weight: bold;
+  /* color: black; */
+  background-color: white;
+  border-color: white;
+}
+.righthr {
+  height: 0.04rem;
+  border-radius: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  /* width: 100%; */
+  /* margin: auto; */
+  box-shadow: none;
+  font-weight: bold;
+  /* color: black; */
+  background-color: black;
+  border-color: black;
+}
+.lefttitle {
+  margin: 0px;
+  font-size: 2vw;
+  font-weight: 700;
+}
+.myimage {
+  width: 60%;
+  height: inherit;
+  margin-left: 20%;
+  box-sizing: border-box;
+  border-radius: 50%;
+}
+.telephone {
+  display: flex;
+  padding: 1em;
+}
+.phoneicon {
+  width: 1em;
+  font-size: 1vw;
+  vertical-align: middle;
+  height: 1em;
+  margin-right: 1em;
+}
+.mailicon {
+  width: 1em;
+  font-size: 1vw;
+  margin-right: 1em;
+  height: 1em;
+  vertical-align: middle;
+}
+.addressicon {
+  width: 1em;
+  font-size: 1vw;
+  margin-right: 1em;
+  height: 1em;
+  vertical-align: middle;
+}
+.email {
+  display: flex;
+  padding: 1em;
+}
+.address {
+  display: flex;
+  padding: 1em;
+}
+.info {
+  font-size: 1vw;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+.skillpoints {
+  /* padding-left: 2em; */
+  font-size: 1vw;
+  /* font-weight: 500; */
+}
+.skillpoints ul li {
+  padding: 1em;
+}
+.contact {
+  margin-top: 3vw;
+}
+.skills {
+  margin-top: 2vh;
+}
+.language {
+  margin-top: 2vh;
+}
+.resume {
+  width: 75%;
+  background-color: white;
+}
+.header {
+  /* width: 100%;    */
+  background-color: black;
+  font-size: 7vh;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+}
+
+.job {
+  /* width: 100%; */
+  text-align: center;
+  background-color: black;
+  font-size: 5vh;
+  font-weight: bold;
+  padding-bottom: 2vh;
+  color: white;
+}
+.contents {
+  padding-top: 3vh;
+  /* padding-left: 2vw; */
+  box-sizing: border-box;
+}
+.kiri {
+  background-color: #2a3444;
+  /* padding-left: 20px; */
+}
+.plot {
+  border-left: 1px solid black;
+  /* border-width: 10px; */
+  padding-left: 2vw;
+}
+.list-wrapper {
+  position: relative;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+.list-item-wrapper {
+  margin-top: 1vw;
+  position: relative;
+}
+.list-bullet {
+  float: left;
+  margin-right: 2vw;
+  background: grey;
+  height: 1vw;
+  width: 1vw;
+  line-height: 30px;
+  border-radius: 100px;
+  /* z-index: -3; */
+  font-weight: 700;
+  color: white;
+  text-align: center;
+}
+.list-item {
+  display: table-row;
+  vertical-align: middle;
+  /* z-index: 3; */
+}
+.list-title {
+  font-weight: 700;
+}
+.list-text {
+  font-weight: 400;
+}
+.red-line {
+  background: #2a3444;
+  width: 0.2vh;
+  height: 100%;
+  position: absolute;
+  left: 0.5vw;
+}
+.white-line {
+  background: white;
+  z-index: -1;
+  top: 0px;
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  left: 0.5vw;
+}
+.desc {
+  /* margin-top: 2vh; */
+  /* margin-bottom: 2vh; */
+  font-size: 1vw;
+}
+.education {
+  font-size: 1vw;
+}
+.work {
+  font-size: 1vw;
+}
